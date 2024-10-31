@@ -26,18 +26,6 @@ For this homework you can either continue from the website you created for your 
   - Multiple commits should be created, referencing the issue they resolve, each with descriptive messages.
 - Code MUST be formatted properly, according to the [prettier](https://prettier.io/) rules. You can use the [VSCode plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for this. You can even enable [format on save](https://blog.yogeshchavan.dev/automatically-format-code-on-file-save-in-visual-studio-code-using-prettier) from it.
 
-## Tasks
-
-Navigate in GitHub to the _Issues_ section and complete all issues. Mark your progress by checking off the items. Issues need to be completed in ascending order (by number).
-
-## Hints
-
-- This project will be evaluated against four pillars:
-  - _Visual style_. This includes how the application looks, how it responds to screen resolution changes, and how friendly and easy to use it is.
-  - _Code correctness_. Is the code following the standards properly? Or is it just a mishmash of things put there until it works.
-  - _Content_. The website itself need to have rich content, with pictures, text, and friendly navigation.
-  - _Presentation_. How are you presenting the project? Can you emphasize all its features and show the code that you used to create them?
-
 ## Background materials
 
 ### Technical help
