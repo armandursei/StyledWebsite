@@ -1,3 +1,4 @@
+/* Shared styles for every page: typography, header navigation and footer. */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 h2 {
   font-size: 5.5vw;
@@ -27,6 +28,7 @@ html, body {
   box-sizing: border-box;
 }
 
+/* Header bar: logo + title on the left, navigation on the right */
 .top-nav {
  
   display: flex;
@@ -35,7 +37,6 @@ html, body {
   justify-content: space-between;
   background-color: #9b9d9d;
   background: linear-gradient(to left, #a1a1a1, #ffffff);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 80px;
   padding: 1em;
@@ -60,6 +61,7 @@ html, body {
     font-size: 18px;
 }
   
+/* Hamburger button (CSS-only, driven by the hidden #menu-toggle checkbox) */
 .menu-button-container {
   display: none;
   height: 100%;
@@ -122,13 +124,13 @@ img {
     object-fit: cover;
 }
 
-.titlu-nav {
+.title-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.titlu-nav h3 {
+.title-nav h3 {
     font-size: 31px;
     color: black;
     margin: 0;
@@ -142,6 +144,7 @@ img {
 }
 
 
+/* Footer */
 .footer-distributed{
   background: #bdbdbd;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -226,10 +229,6 @@ img {
   padding-right: 5px;
 }
 
-.footer-distributed  {
-  content: none;
-}
-
 .footer-distributed .footer-right{
   width: 20%;
 }
@@ -254,22 +253,6 @@ img {
   margin-top: 10px;
 }
 
-.footer-distributed .footer-icons a{
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color:  #33383b;
-  border-radius: 2px;
-
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
 
 
 @media (max-width: 600px) {
@@ -297,9 +280,11 @@ img {
 
 }
 
+/* Below 900px the navigation collapses into the hamburger menu */
 @media (max-width: 900px) {
   
-    .menu-button-container {
+    /* Hamburger button (CSS-only, driven by the hidden #menu-toggle checkbox) */
+.menu-button-container {
       display: flex;
     }
     .menu {

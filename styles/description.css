@@ -1,3 +1,4 @@
+/* Description page: intro, expanding image gallery and the four engine strokes. */
 * {
     box-sizing: border-box;
   }
@@ -66,6 +67,7 @@
    box-sizing: border-box;
   }
 
+  /* Expanding image gallery: the hovered image grows and regains colour */
   :root {
     --magnifier: 6;
     --gap: 1vmin;
@@ -108,7 +110,7 @@ h4{
     text-align: center;
   }
 
-  .margines{
+  .text-margins{
     margin: 0;
      margin-left: 3vh!important; 
      margin-right: 3vh!important; 

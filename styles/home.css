@@ -1,3 +1,4 @@
+/* Home page: intro grid, engine type gallery and responsive video. */
 
 .container1 {
   box-sizing: border-box;
@@ -40,10 +41,6 @@
   
 }
 
-.photo_engine_types{
-  width:fit-content!important;
-}
-
 figure {
 	
   object-fit:cover ;
@@ -55,6 +52,7 @@ figure {
 	background: #fff;
 	overflow: hidden;
 }
+/* Engine type captions fade in when the image is hovered */
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;

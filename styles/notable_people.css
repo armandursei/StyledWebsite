@@ -1,3 +1,4 @@
+/* Notable people page: responsive card grid. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -104,15 +105,7 @@
     background: var(--light-bg);
   }
   
-  .fill-one {
-    background: var(--light-bg);
-  }
-  
-  .fill-two {
-    background: var(--pink);
-  }
-  
-  /* RESPONSIVE QUERIES */
+  /* Responsive breakpoints: 1, 2, 3 and 4 cards per row */
   
   @media (min-width: 320px) {
     .title-flex {
